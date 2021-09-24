@@ -10,7 +10,7 @@ jobs:
           fetch-depth: 0
       - name: Embold scan step
         id: embold
-        uses: embold/github-action-docker@v0.2
+        uses: embold/github-action-docker@v0.1
         with:
           embold-url: 'https://oss.emboldci.dev'
           embold-token: ${{ secrets.EMBOLD_TOKEN }}
